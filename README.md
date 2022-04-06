@@ -4,10 +4,7 @@ test
 
 Semester Project
 
-Filters: 
--virginia only, county levelff
--First 6 months of pandemic (starting March 1, 2020? )
-
+Google Doc: https://docs.google.com/document/d/1iNAjigLJD2eXZwRQK7iov3kCONHl2LmcBNTAoTiAb0s/edit?usp=sharing
 Github repo: https://github.com/grm7q/DS-5100-Group-Project
 Class spreadsheet links: 
 https://collab.its.virginia.edu/portal/site/987634f5-80b0-4c12-a669-d6027dff39c9/tool/be8cc889-b057-474f-a0a4-8d4b7e892274/
@@ -25,17 +22,33 @@ Project Specifications:
 •	Self-organize into groups of 4 students
 •	Pick a data set that you and your group find interesting. (Example source: UC Irvine Machine Learning Repository. Feel free to select your data from any other source as appropriate. See Semester Project Resources for additional locations for datasets.)
 •	Form a research question
-Ideas: 
+
+++++++++++++++++++++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ 
+We sought to answer the following 4 questions in Virginia: 
+
+
+1. When did the largest trough in non-residential 7-day average mobility occur? 
+2. How did mobility associate with death and cases? 
+3. Was peak reduction in mobility the same for rural and non-rural counties?
+4. Was peak reduction in mobility associated with county-level educational attainment?
+++++++++++++++++++++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ 
+
+Data Sources: 
 1) Using google mobility data (https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=6d352e35dcffafce) 
 Here's the csv documentation: https://www.google.com/covid19/mobility/data_documentation.html?hl=en
 And 
-NYT COVID data ( https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv ): 
+2) NYT COVID data ( https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv ): 
 And
-dataset on educational attainment and rural/non-rual by county: https://data.virginia.gov/dataset/EAG-Educational-Attainment-by-Locality/vzbr-xc9q
+3) dataset on educational attainment and rural/non-rual by county: https://data.virginia.gov/dataset/EAG-Educational-Attainment-by-Locality/vzbr-xc9q
 Skip to Main Content Sign In. Search Search
 data.virginia.gov
 
-Semester Project
+Filters: 
+-virginia only, county levelff
+-First 6 months of pandemic (starting March 1, 2020 to end of July 2020)
+
+++++++++++++++++++++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ 
+Semester Project Description
 Project Specifications:
 •	Self-organize into groups of 4 students
 •	Pick a data set that you and your group find interesting. (Example source: UC Irvine Machine Learning Repository. Feel free to select your data from any other source as appropriate. See Semester Project Resources for additional locations for datasets.)
@@ -105,25 +118,15 @@ Total Points	100
 
 
 ++++++++++++++++++++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ 
-Overall Topic: For Charlottesville and Albemarle County, how did mobility (as measured by Google Mobility data) change in response to the pandemic and how did socioeconomic factors influence those changes? 
 
+Meeting 3/9/22
+Tasks
+	-Greg: incorporate mobility findings for question 1 into powerpoint and written report. 
+	-Wenwei: binding mobility data to your nyt death and case data. Incorporate methods into powerpoint and written report.
+	-Mariska: questions 3/4 with scatterplots. Incorporate findings into powerpoint and written report.
+	-Catherine: Using the dataset created by Wenwei binding mobility data + nyt data, create time series plots for mobility + cases, mobility + deaths (using dual axes?) to answer question 2 (How did mobility associate with death and cases?). Incorporate findings into powerpoint and written report. 
+	-Mary: Create a visualization for question 3 (Was peak reduction in mobility the same for rural and non-rural counties?). Incorporate findings into powerpoint and written report.
+++++++++++++++++++++++++++++++++++++++++++++++++++
 
-4 questions: 
-1.	Which changed more drastically, mobility in Albemarle county or mobility in Charlottesville City? Instead of just comparing two counties, we can look at changes in mobility across different counties according to whatever variable(s) we add. For example, were changes in mobility more drastic for counties with high/low poverty, different racial/ethnic breakdown, number of nonnative English speakers, educational attainment, etc.?
-2.	Using NYT data, did troughs in mobility correlate with peaks in incidence of new COVID cases? If so, did this correlation differ between counties when we break down by our variable of interest?
-3.	Did peaks in mobility reliably occur before peaks in incidence? In other words, could mobility be used to predict peaks in incidence with a certain lag time?
-4.	What type of mobility destinations (i.e. grocery, transit, workplaces, parks, retail, etc.) correlated best with COVID trends? This would be very interesting to break down by some economic or demographic factor. In places with high poverty, for example, I might predict less of a decline to workplaces than in places that are more affluent.
-![image](https://user-images.githubusercontent.com/34383440/153308496-24f48b44-d07d-45ca-a584-2c8abc34b981.png)
-
-++++++++++++++++++++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ ++++++++++++++++++ 
-
-Meeting Notes: 
-
-
-Meeting 2/8/22
-? break down initial work 
-- tidy data
-	-Greg: Google mobility data
-	-Wenwei: NYT data
-	-Mariska: educational attainment and rural/non-rural by county
-	-Catherine: combine datasets and make sure filtered and complete by State == Virginia and Counties
+Link to Powerpoint slides:
+https://myuva-my.sharepoint.com/personal/vgg2zw_virginia_edu/_layouts/15/doc.aspx?sourcedoc={6ecc93d4-c161-4f9a-8b64-a5a6b7564747}&action=edit
